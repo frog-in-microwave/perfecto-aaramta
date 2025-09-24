@@ -135,7 +135,7 @@ footer {
     justify-content: center;
 }
 
-#call_info button {
+#call_info a button {
     min-width: 150px;
     min-height: 35px;
     color: #000000;
@@ -210,3 +210,4 @@ footer {
     
 
 }
+
