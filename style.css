@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+    background-color: #b93744;
+    margin: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+#hero_section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#title_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+#title_container h1 {
+    font-size: 64px;
+    font-weight: 700;
+    color: #d7bea5;
+    -webkit-text-stroke-color: #000000;
+    -webkit-text-stroke-width: 2.5px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#hero_section h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #000000;
+    margin: 0;
+}
+#hero_phone {
+    margin: 0;
+    margin-bottom: 10px !important;
+    text-decoration: underline;
+    color: #d7bea5 !important;
+}
+
+#hero_logo {
+    aspect-ratio: 1 / 1;
+    height: 64px;
+    color: #d7bea5;
+    margin-bottom: 0;
+}
+
+#hero_logo path{
+    fill: #d7bea5;
+
+}
+
+#menu_section {
+    background-color: #d7bea5;
+    max-width: 800px;
+    margin: 30px auto;
+    margin-top: 0;
+    padding: 20px;
+    direction: rtl;
+    border-radius: 15px;
+}
+
+.menu_chunk {
+    color: #b93744;
+    position: relative;
+}
+.menu_chunk h2{
+    font-size: 28px;
+    margin: 10px auto;
+}
+.menu_chunk hr {
+    color: #b93744;
+}
+
+.mini_menu_ckunk {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px dotted #000000;
+}
+.food_price {
+    color: #b93744;
+    font-weight: 700;
+}
+.food_info h3{
+    color: #000000;
+    font-size: 22px;
+    margin: 5px auto;
+}
+
+.food_info p{
+    color: #1e1e1e;
+    margin: 3px auto;
+}
+
+footer {
+    max-width: 800px;
+    position: relative;
+    background-color: #d7bea5;
+    margin: 10px auto;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#call_info {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+#phone_num {
+    
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#call_info button {
+    min-width: 150px;
+    min-height: 35px;
+    color: #000000;
+    background-color: #ce9a88;
+    border: 3px solid #b93744;
+    border-radius: 5px;
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#button_logo svg {
+    aspect-ratio: 1 / 1;
+    height: 20px;
+    width: 20px;
+}
+
+#map {
+    border-radius: 15px;
+    width: 100%;
+}
+#map_container {
+    border: 5px solid #b93744; border-radius: 15px; 
+    margin-top: 20px;
+    width: 60%;
+}
+
+
+@media(max-width: 390px){
+
+    #title_container h1 {
+        font-size: 48px;
+    }
+    #hero_logo {
+        font-size: 56px;
+    }
+    #snack_container {
+        font-size: 32px;
+    }
+
+}
+
+@media(max-width: 640px){
+
+    
+    #map_container {
+        width: 90%;
+    }
+
+}
+
+@media(max-width: 400px){
+
+    
+    #map_container {
+        width: 100%;
+    }
+
+}
+
+@media(max-width: 315px){
+
+    #call_info {
+        flex-direction: column;
+
+    }
+    
+
+}
