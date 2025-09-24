@@ -79,7 +79,8 @@ a {
     margin: 10px auto;
 }
 .menu_chunk hr {
-    color: #b93744;
+    border: none;
+    border-top: 2px solid #b93744;
 }
 
 .mini_menu_ckunk {
@@ -163,6 +164,8 @@ footer {
     border: 5px solid #b93744; border-radius: 15px; 
     margin-top: 20px;
     width: 60%;
+    position: relative;
+    padding: 0%;
 }
 
 
